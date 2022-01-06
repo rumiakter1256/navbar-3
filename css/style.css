@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins&family=Ubuntu&display=swap');
+*{
+   box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+li, a , button{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+    cursor: pointer;
+    background-color: #242424;
+
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+
+.nav-links  {
+    list-style: none;
+
+}
+.nav-links{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+    margin: 0 20px;
+}
+
+.nav-links li:hover{
+   
+    color: blueviolet;
+    
+}
+button{
+    margin-left: 30px;
+    padding: 9px 25px;
+    background-color: crimson;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  
+}
+button:hover{
+    background-color: blue;
+}
+li{
+    display: inline-block;
+}
